@@ -422,6 +422,10 @@
 			<id>ossrh</id>
 			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 		</repository>
+		<repository>
+			<id>ossrh</id>
+			<url>http://repo.jfrog.org/artifactory/libs-releases/org/eclipse/mylyn/github/org.eclipse.egit.github.core/3.1.0.201310021548-r/</url>
+		</repository>
 		<site>
 			<id>github-project-site</id>
 			<url>gitsite:git@github.com/devopsfolks/podam.git</url>
@@ -429,12 +433,6 @@
 	</distributionManagement>
 
 	<dependencies>
-        <dependency>
-            <groupId>org.eclipse.mylyn.github</groupId>
-            <artifactId>org.eclipse.egit.github.core</artifactId>
-            <version>3.1.0.201310021548-r</version>
-            <systemPath>src/org.eclipse.egit.github.core-3.1.0.201310021548-r.jar</systemPath>
-        </dependency>
 		<dependency>
 			<groupId>net.jcip</groupId>
 			<artifactId>jcip-annotations</artifactId>
