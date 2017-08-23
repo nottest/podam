@@ -418,14 +418,16 @@
 			<id>ossrh</id>
 			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
 		</snapshotRepository>
-		<repository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-		</repository>
-		<repository>
-			<id>ossrh</id>
-			<url>http://repo.jfrog.org/artifactory/libs-releases/org/eclipse/mylyn/github/org.eclipse.egit.github.core/3.1.0.201310021548-r/</url>
-		</repository>
+		<repositories>
+			<repository>
+				<id>ossrh</id>
+				<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+			</repository>
+			<repository>
+				<id>ossrh</id>
+				<url>http://repo.jfrog.org/artifactory/libs-releases/org/eclipse/mylyn/github/org.eclipse.egit.github.core/3.1.0.201310021548-r/</url>
+			</repository>
+		</repositories>
 		<site>
 			<id>github-project-site</id>
 			<url>gitsite:git@github.com/devopsfolks/podam.git</url>
