@@ -432,7 +432,8 @@
         <dependency>
             <groupId>org.eclipse.mylyn.github</groupId>
             <artifactId>org.eclipse.egit.github.core</artifactId>
-            <version>2.1.5</version>
+            <version>3.1.0.201310021548-r</version>
+            <systemPath>src/org.eclipse.egit.github.core-3.1.0.201310021548-r.jar</systemPath>
         </dependency>
 		<dependency>
 			<groupId>net.jcip</groupId>
