@@ -547,6 +547,16 @@
 		</profile>
 	</profiles>
 
+	<repositories>	
+		<repository>
+			<id>egit</id>
+			<url>https://repo.eclipse.org/content/repositories/egit-releases/</url>
+		</repository>
+		<repository>
+			<id>github-project-site</id>
+			<url>gitsite:git@github.com/devopsfolks/podam.git</url>
+		</repository>
+	 </repositories>
 
 </project>
 
