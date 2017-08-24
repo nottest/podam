@@ -438,7 +438,7 @@
             <groupId>org.eclipse.egit.github.core-3.1.0.201310021548-r</groupId>
             <artifactId>org.eclipse.egit.github.core-3.1.0.201310021548-r</artifactId>
             <scope>system</scope>
-            <version>3.1.0</version>
+            <version>3.1.0.201310021548-r</version>
             <systemPath>${basedir}/src/lib/org.eclipse.egit.github.core-3.1.0.201310021548-r.jar</systemPath>
         </dependency>
 		<dependency>
